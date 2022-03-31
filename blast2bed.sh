@@ -9,8 +9,7 @@ then
 else
     echo "ERROR: No input file prvided or file does not exist.
 Usage: ./blast2bed <blastoutput.bls>
-The blast file should be in blast outfmt 6 or 7.
-See Readme.org for more details."
+The blast file should be in blast outfmt 6 or 7."
     exit 1
 fi
 
