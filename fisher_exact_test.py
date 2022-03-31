@@ -12,6 +12,9 @@ import sys
 
 p = pvalue(int(sys.argv[1]), int(sys.argv[2]), int(sys.argv[3]), int(sys.argv[4]))
 #print p.left_tail, p.right_tail, p.two_tail
-print "Two Tail p: " + str(p.two_tail)
-print "Right Tail p: " + str(p.right_tail)
-print "Left Tail p: " + str(p.left_tail)
+#print "Two Tail p: " + str(p.two_tail)
+#print "Right Tail p: " + str(p.right_tail)
+#print "Left Tail p: " + str(p.left_tail)
+
+print str(sys.argv[1]) + "\t" + str(sys.argv[2]) + "\t" + str(sys.argv[3]) + "\t" + str(sys.argv[4]) + "\t" + \
+    "TwoTail-p:" + str(p.two_tail) + "\t" + "RightTail-p:" + str(p.right_tail) + "\t" + "Left-Tail-p:" + str(p.left_tail)
